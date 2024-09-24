@@ -1,0 +1,22 @@
+{
+    "name": "kenei/real-chat",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lara\\": "Src/",
+        "App\\": "Src/App/"
+
+        },
+        "files": [
+         "Src\\LaraCore\\Support\\helper.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "keneil2",
+            "email": "keneilsamms23@gmail.com"
+        }
+    ],
+    "require": {}
+}

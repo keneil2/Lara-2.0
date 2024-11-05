@@ -1,1 +1,175 @@
 hiiii
+ParseError: syntax error, unexpected token "\" in C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php:8
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#2 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(91): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(68): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+hiiii
+TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, second array member is not a valid method in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php:102
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(102): call_user_func(Array)
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(22): Lara\App\AppLication->connectDatabase()
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(38): Lara\App\AppLication->__construct()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#5 {main}
+Error: Value of type null is not callable in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php:102
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(22): Lara\App\AppLication->connectDatabase()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(38): Lara\App\AppLication->__construct()
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+hiiii
+hiiii
+hiiii
+hiiii
+Error: Failed opening required 'driver.php' (include_path='C:\xampp\php\PEAR') in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:13
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.driver')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#2 [internal function]: Lara\App\AppLication->{closure}()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#9 {main}
+hiiii
+Error: Failed opening required 'C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services/../../../config/driver.php' (include_path='C:\xampp\php\PEAR') in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:13
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.driver')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#2 [internal function]: Lara\App\AppLication->{closure}()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#9 {main}
+hiiii
+hiiii
+hiiii
+hiiii
+Error: Failed opening required 'C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services/../../../config/.php' (include_path='C:\xampp\php\PEAR') in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:13
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->get('.connections.dr...')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(21): Lara\LaraCore\Services\Config->formKey(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#4 [internal function]: Lara\App\AppLication->{closure}()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#11 {main}
+hiiii
+Error: Failed opening required 'C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services/../../../config/.php' (include_path='C:\xampp\php\PEAR') in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:13
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(37): Lara\LaraCore\Services\Config->get('.connections.dr...')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(20): Lara\LaraCore\Services\Config->formKey(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#4 [internal function]: Lara\App\AppLication->{closure}()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#11 {main}
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+ParseError: syntax error, unexpected token "...", expecting "]" in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:34
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\kenei\\...')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Contianer.php(45): Composer\Autoload\ClassLoader->loadClass('Lara\\LaraCore\\S...')
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(21): Lara\Contianer->Lara\{closure}()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#4 [internal function]: Lara\App\AppLication->{closure}()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#11 {main}
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+hiiii
+ParseError: syntax error, unexpected token "return" in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:77
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\Users\\kenei\\...')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Contianer.php(45): Composer\Autoload\ClassLoader->loadClass('Lara\\LaraCore\\S...')
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(21): Lara\Contianer->Lara\{closure}()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#4 [internal function]: Lara\App\AppLication->{closure}()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#11 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:73
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(73): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(76): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(23): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}

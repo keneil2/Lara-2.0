@@ -15,7 +15,7 @@ public  function load($path): void {
 
     $value = trim($value);
 
-    putenv(sprintf("%s=%s",$key,$value));
+    putenv(assignment: sprintf("%s=%s",$key,$value));
 
     $_ENV[$key] = $value;
 

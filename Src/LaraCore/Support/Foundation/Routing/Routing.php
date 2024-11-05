@@ -1,5 +1,6 @@
 <?php
 namespace Lara\LaraCore\Support\Foundation\Routing;
+// todo: make this class return an 404 message if the route is not defined
 class Routing extends ActionDispatcher
 {
       private $uriMap = [];

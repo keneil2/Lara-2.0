@@ -1,5 +1,7 @@
 <?php
 namespace Lara;
+use Lara\Database\DatabaseConnection;
+use Lara\LaraCore\Services\Config;
 use Lara\LaraCore\Services\LaraExceptions;
 use Lara\LaraCore\Services\Logger;
 use Lara\LaraCore\Services\RoutingService;
@@ -10,7 +12,9 @@ class Contianer {
     private static $coreService = [
       "routing" => Routing::class,
       "exception" => LaraExceptions::class,
-      "logger" => Logger::class
+      "logger" => Logger::class,
+      // "database"=>DatabaseConnection::class,
+      "config"=>Config::class
 
 
     ];
@@ -23,10 +27,9 @@ class Contianer {
           }
     }
     /**
-     * resolve a service
-     * 
+     *resolve a service
     */
-    public static function resolve($key){
+    public static function resolve($key) {
           if(!in_array($key,self::$bind)){
                 return self::$bind[$key];
           }

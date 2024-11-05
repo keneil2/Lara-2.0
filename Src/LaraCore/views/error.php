@@ -31,6 +31,7 @@
        <?php $traces=$error->getTrace() ?> 
 
         <?php
+        // dd($traces);
         $errorFiles=[];
         function ShowCode($file,$line,$context=5){
             $lines = file($file);
@@ -48,11 +49,12 @@
          }
         ?>
         <?php foreach($traces as $index => $trace){
-             $errorFiles[$index]=ShowCode($trace['file'],$trace["line"]);
+            // dd($trace);
+             $errorFiles[$index]= array_key_exists("file",$trace) ?? ShowCode($trace['file'],$trace["line"]);
              
             ?>
             <div class="w-[300px] border border-gray-400 h-32 mb-1 rounded-sm p-1 bg-gray-300 cursor-pointer" onclick='errorDisplayer( line=<?php echo $trace["line"]  ?>, file=<?php echo json_encode($errorFiles[$index])?>)'>
-                <p class="text-wrap break-words text-[0.8rem] mt-4 font-semibold cursor-pointer"><?=$trace['file']?></p>
+                <p class="text-wrap break-words text-[0.8rem] mt-4 font-semibold cursor-pointer"><?= !array_key_exists("file",$trace) ?"unknown File": $trace['file']?></p>
         </div>
             <?php
 

@@ -6,6 +6,7 @@ use Lara\LaraCore\Services\LaraExceptions;
 use Lara\LaraCore\Services\Logger;
 use Lara\LaraCore\Services\RoutingService;
 use Lara\LaraCore\Support\Foundation\Routing\Routing;
+// todo: add a property to store possible singleton classes;
 class Contianer {
      
     private  static $bind=[];
@@ -13,10 +14,8 @@ class Contianer {
       "routing" => Routing::class,
       "exception" => LaraExceptions::class,
       "logger" => Logger::class,
-      // "database"=>DatabaseConnection::class,
+      "database"=>DatabaseConnection::class,
       "config"=>Config::class
-
-
     ];
  /**
     * register an the service 
@@ -40,10 +39,19 @@ class Contianer {
     // register all the applications core services 
     public function getCoreServices(){
     foreach(self::$coreService as $name => $service){
+   if($service===Config::class){
+    
+        $this->register($name,function () use($service){
+            return $service::getInstance();
+        });
 
+        continue;
+   }
 $this->register($name,function() use($service){
             return new $service;
         });
+
+
 
     }
       

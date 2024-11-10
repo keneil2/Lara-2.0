@@ -2,7 +2,7 @@
 return [
     "connections"=>[
 
-     "driver"=>env("DB_DRIVER") ??"mysql",
+     "driver"=>env("DB_DRIVER") ?? "mysql",
     "db_host" => env("DB_HOST"),
     "db_name"=>env("DB_NAME"),
     "db_username" => env("DB_USERNAME"),

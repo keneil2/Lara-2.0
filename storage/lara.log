@@ -173,3 +173,1125 @@ Stack trace:
 #10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
 #11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
 #12 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /split-pdf is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Error: Call to private Lara\LaraCore\Services\Config::__construct() from scope Lara\Contianer in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Contianer.php:49
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(21): Lara\Contianer->Lara\{closure}()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#2 [internal function]: Lara\App\AppLication->{closure}()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#9 {main}
+Error: Call to private Lara\LaraCore\Services\Config::__construct() from scope Lara\Contianer in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Contianer.php:49
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(21): Lara\Contianer->Lara\{closure}()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#2 [internal function]: Lara\App\AppLication->{closure}()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#9 {main}
+Error: Call to private Lara\LaraCore\Services\Config::__construct() from scope Lara\Contianer in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Contianer.php:49
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(21): Lara\Contianer->Lara\{closure}()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#2 [internal function]: Lara\App\AppLication->{closure}()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#9 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:56
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(56): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(60): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:56
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(56): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(60): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:56
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(56): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(60): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:56
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(56): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(60): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:56
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(56): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(60): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:56
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(56): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(60): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:56
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(56): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(60): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}
+TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:56
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(56): count('"mysql"')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(60): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(38): Lara\LaraCore\Services\Config->getConfig(Array, Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#5 [internal function]: Lara\App\AppLication->{closure}()
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#10 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#11 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#12 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(92): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(69): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /app/bdegg0mk2015x4kaxja2?protocol=7&client=js&version=8.4.0-rc2&flash=false is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(94): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(71): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(96): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(75): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(96): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(75): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: / is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(96): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(75): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: The route: /RegistrationForm is not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php:53
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(96): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(75): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Error: Call to a member function getInstance() on string in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php:22
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(24): Lara\LaraCore\Support\Facades\Facade::__callStatic('getInstance', Array)
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(43): Lara\App\AppLication->__construct()
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Error: Call to a member function config() on string in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php:22
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(24): Lara\LaraCore\Support\Facades\Facade::__callStatic('config', Array)
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(43): Lara\App\AppLication->__construct()
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: config Not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:116
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(49): Lara\LaraCore\Services\Config->getconfigArray('database')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#3 [internal function]: Lara\App\AppLication->{closure}()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(97): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(76): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#10 {main}
+Exception: config Not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:116
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(49): Lara\LaraCore\Services\Config->getconfigArray('database')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#3 [internal function]: Lara\App\AppLication->{closure}()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(97): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(76): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#10 {main}
+Exception: config Not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:116
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(49): Lara\LaraCore\Services\Config->getconfigArray('database')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#3 [internal function]: Lara\App\AppLication->{closure}()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(97): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(76): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#10 {main}
+Exception: config Not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php:116
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Services\Config.php(49): Lara\LaraCore\Services\Config->getconfigArray('database')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Facades\Facade.php(22): Lara\LaraCore\Services\Config->get('database.connec...')
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\routes\web.php(10): Lara\LaraCore\Support\Facades\Facade::__callStatic('get', Array)
+#3 [internal function]: Lara\App\AppLication->{closure}()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\ActionDispatcher.php(19): call_user_func(Object(Closure))
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\LaraCore\Support\Foundation\Routing\Routing.php(67): Lara\LaraCore\Support\Foundation\Routing\ActionDispatcher->function_dispatcher(Object(Closure))
+#6 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(97): Lara\LaraCore\Support\Foundation\Routing\Routing->route_dispatcher()
+#7 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(76): Lara\App\AppLication->loadroute(Object(Lara\LaraCore\Support\Foundation\Routing\Routing))
+#8 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication->withRoute(Array)
+#9 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#10 {main}
+Error: Class "Lara\App\Exception" not found in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php:131
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(29): Lara\App\AppLication->singleton('config')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+Exception: singleton Not registered in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php:131
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(29): Lara\App\AppLication->singleton('config')
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#4 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="m...', '"mysql"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="l...', '"mysql"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="l...', '"mysql"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="l...', '"mysql"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="l...', '"mysql"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="l...', '"mysql"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="1...', '"mysql"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="1...', '"swiftdrive"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:23
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(23): PDO->__construct('"mysql":host="1...', '"swiftdrive"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('mysql"\r\n:host=1...', 'root"\r\n', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('mysql"\r\n:host=1...', 'root"\r\n', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('mysql"\r\n:host=1...', 'root"\r\n', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('mysql"\r\n:host=1...', 'root"\r\n', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('mysql"\r\n:host=1...', 'root"\r\n', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('mysql"\r\n:host=1...', 'root"\r\n', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('mysql"\r\n:host=1...', 'root"\r\n', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('mysql"\r\n:host=1...', 'root"\r\n', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:24
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(24): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:25
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(25): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:25
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(25): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:25
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(25): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:25
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(25): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:25
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(25): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:25
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(25): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: could not find driver in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:25
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(25): PDO->__construct('"mysql":host="1...', '"root"', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}
+PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php:25
+Stack trace:
+#0 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\Database\DatabaseConnection.php(25): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue))
+#1 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(109): Lara\Database\DatabaseConnection->databaseConnection(Array)
+#2 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(32): Lara\App\AppLication->connectDatabase()
+#3 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Src\App\Application.php(48): Lara\App\AppLication->__construct()
+#4 C:\Users\kenei\OneDrive\Documents\Lara 2.0\bootstrap\app.php(8): Lara\App\AppLication::getAppInstance()
+#5 C:\Users\kenei\OneDrive\Documents\Lara 2.0\Public\index.php(9): require('C:\\Users\\kenei\\...')
+#6 {main}

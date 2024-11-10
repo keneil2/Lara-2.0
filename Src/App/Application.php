@@ -1,25 +1,35 @@
 <?php
 namespace Lara\App;
 use Lara\Contianer;
+// use Lara\LaraCore\Support\Facades\Config;
+use Lara\LaraCore\Services\Config;
 use Lara\LaraCore\Support\Foundation\Env\DotEnvLoader;
 use LaraCore\Support\Facades\LaraException;
 class AppLication
 {
     private static $instance;
     private static $container;
+    private static $configInstance=null;
     private static $resolvedInstance = [];
+    private $singletons=[];
     private function __construct()
     {
         $envLoader = new DotEnvLoader();
         $envLoader->load(__DIR__ . "/../../");
-
-        self::$container = new Contianer;
-
+        
+        $this->singletons=[
+          "config" => Config::getInstance(),
+        ];
         // loading core services
+         self::$container = new Contianer;
+
         self::$container->getCoreServices();
 
+ // loading config settings 
+         self::$configInstance=  $this->singleton("config");
+       
         // connecting to database
-        // $this->connectDatabase();
+        $this->connectDatabase();
     }
 
     public function __clone()
@@ -51,6 +61,7 @@ class AppLication
     {
         self::$resolvedInstance[$name] = $object;
     }
+
     // load instances 
     public function getResolvedService($name)
     {
@@ -78,9 +89,7 @@ class AppLication
 
     public function create()
     {
-        $services = [
-
-        ];
+        $services = [];
         foreach ($services as $service) {
             $resolvedService = $this->getResolvedService($service);
         }
@@ -97,8 +106,39 @@ class AppLication
     {
         // resolving dbCon obj
         $db = Contianer::resolve("database");
+        $db()->databaseConnection($this->singleton("config")->get("database"));
+        // // initalizing connection   
+        // call_user_func([$db(),"databaseConnection" ]);
+    }
 
-        // initalizing connection   
-        call_user_func([$db(),"databaseConnection" ]);
+    public static function getConfigInstance(){
+        return self::$configInstance;
+    }
+
+
+
+
+
+
+  /**
+   * load the the singleton registered in application 
+   * @var string singletons name
+   * @return object   
+   *    
+   * */
+    public function singleton($name){
+      if(!array_key_exists($name,$this->singletons)){
+            throw new \Exception("singleton Not registered");
+      }
+
+      return $this->singletons[$name];
+    }
+
+
+    public function addSigleton($name, $instance){
+      if(!is_object($instance)){
+        throw new \Exception ("you can only register singletons with an object");
+      }
+      $this->singletons[$name]=$instance;
     }
 }

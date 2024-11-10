@@ -18,5 +18,7 @@ interface ConfigFactory{
      */
     public function set(string $name, string $value);
 
+    function getconfigArray($filename);
+
 
 }

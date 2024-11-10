@@ -1,4 +1,5 @@
 <?php
+use Lara\App\AppLication;
 use Lara\LaraCore\Support\Foundation\Env\DotEnvLoader;
 
 /**
@@ -17,4 +18,8 @@ DotEnvLoader::setEnv($name,$value);
 function dd($value){
     var_dump($value);
     die;
+}
+
+function getAppconfig(){
+  return AppLication::getConfigInstance();
 }

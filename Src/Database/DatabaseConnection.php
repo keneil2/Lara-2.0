@@ -1,22 +1,29 @@
 <?php
 
 namespace Lara\Database;
- 
-class DatabaseConnection{
-     public $dsn=$db_config["driver"].": host=".$db_config.";"."dbname=".$db_config["DB_NAME"];
-     public $username=$db_config["db_username"];
-     public $password=$db_config["db_password"];
+use Lara\App\AppLication;
+use Lara\LaraCore\Services\Config;
+
+class DatabaseConnection
+{
+     protected $config;
+     public $dsn;
+     // $db_config["driver"].": host=".$db_config.";"."dbname=".$db_config["DB_NAME"];
+
+     public $username;
+     public $password;
      public $options;
-     
-    public function databaseConnection(){
- $this->getdbConfig();
-         $pdo=new \PDO($this->dsn,$this->username,$this->password,$this->options);
-         return $pdo;
-    
-    }
-    protected function getdbConfig(){
-     $db_config = require_once(__DIR__."/../../config/database.php");
-     return $db_config;
-    }
+     function __construct()
+     {
+          // $this->config='';//    ;
+     }
+     public function databaseConnection($config)
+     {
+          //    dd(env("DB_PASSWORD"));
+            $this->config=$config;
+            $password=$config["connections"]["db_password"];
+         $pdo=new \PDO($config["connections"]["driver"].":host=".$config["connections"]["db_host"].";"."dbname=".$config["connections"]["db_name"],$config["connections"]["db_username"],$password);
+        dd($pdo);
+     }
 
 }

@@ -38,18 +38,18 @@
             return $lines;
             //  for ($i = $start; $i < $end  ; $i++) { 
 
-            // //    if($i + 1  !== $line){
-            // //       echo "<span class='' >".$lines[$i]."<span/>";
-            // //    }else{
-            // //   echo  "<span class='bg-red-300'>".$lines[$i]."<span/>";
-            // //    }
+            //    if($i + 1  !== $line){
+            //       echo "<span class='' >".$lines[$i]."<span/>";
+            //    }else{
+            //   echo  "<span class='bg-red-300'>".$lines[$i]."<span/>";
+            //    }
                 
      
             //  }
          }
         ?>
         <?php foreach($traces as $index => $trace){
-            // dd($trace);
+            dd($trace);
              $errorFiles[$index]= array_key_exists("file",$trace) ?? ShowCode($trace['file'],$trace["line"]);
              
             ?>
